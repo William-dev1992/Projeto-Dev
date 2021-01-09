@@ -6,7 +6,7 @@ function generateImgs(){
   for(var i=0; i < 4; i++){
     const imagesBlock = `
                           <div id="${i}" class="fade carrosselI-cont">
-                            <img class="carrossel-img" src="./assets/carrossel${i}.jpg" alt="">
+                            <img class="carrossel-img" src="./carrossel${i}.jpg" alt="">
                           </div>`
     var newCont = carouselCont.innerHTML += imagesBlock;
   }
